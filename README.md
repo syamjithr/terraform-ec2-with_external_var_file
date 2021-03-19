@@ -126,8 +126,7 @@ resource "aws_instance" "webeserver" {
 ##### External variables file
 vim variables.tf
 ```
-#!/bin/bash
-```variable "instance_ami" {
+variable "instance_ami" {
     
     description = "ami id of the ec2 instance"
     default = "ami-0eeb03e72075b9bcc"
